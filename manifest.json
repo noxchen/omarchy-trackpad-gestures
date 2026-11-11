@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "nox.trackpad-gestures",
+  "name": "Trackpad gestures",
+  "version": "1.0.0",
+  "author": "nox",
+  "license": "MIT",
+  "description": "Three- or four-finger swipe between workspaces, macOS style, with the finger count, direction and travel picked from a panel in the bar.",
+  "kinds": [
+    "bar-widget",
+    "service"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml",
+    "service": "Service.qml"
+  },
+  "barWidget": {
+    "displayName": "Trackpad gestures",
+    "description": "Three- or four-finger swipe between workspaces, macOS style. Click the icon for finger count, direction and travel.",
+    "category": "Input",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
